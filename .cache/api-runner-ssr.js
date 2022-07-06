@@ -1,8 +1,8 @@
 var plugins = [{
-      plugin: require('/workspaces/BGOONZ_BLOG_2.0/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('/workspace/blogstack2/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/workspaces/BGOONZ_BLOG_2.0/gatsby-ssr'),
+      plugin: require('/workspace/blogstack2/gatsby-ssr'),
       options: {"plugins":[]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
