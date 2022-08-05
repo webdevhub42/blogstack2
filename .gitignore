@@ -1,26 +1,5 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Logs
+
 logs
 *.log
 npm-debug.log*
@@ -74,11 +53,11 @@ typings/
 *.tgz
 
 # dotenv environment variables file
+.env
 
 
 # gatsby files
-# .cache/
-# public
+
 
 # Mac files
 .DS_Store
@@ -93,5 +72,7 @@ yarn-error.log
 node_modules/
 
 
-*.cache
-*public
+
+
+package.lock.json
+node_modules
